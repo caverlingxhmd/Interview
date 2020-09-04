@@ -1,79 +1,79 @@
 .linearGradient {
-    margin: 0;
-    width: 150px;
-    height: 15px;
-    background-color: #fff;
-    position: relative;
-    display: inline-block;
-    border: 1px solid rgba(55, 71, 211, 0.15);
-    border-radius: 10px;
+  margin: 0;
+  width: 150px;
+  height: 15px;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  border: 1px solid rgba(55, 71, 211, 0.15);
+  border-radius: 10px;
 }
 
 .linearGradient:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    background: -webkit-gradient( linear, 0 100%, 100% 0, color-stop(0.25, rgba(55, 71, 211, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(55, 71, 211, 0.15)), color-stop(0.75, rgba(55, 71, 211, 0.15)), color-stop(0.75, transparent), to(transparent));
-    background: -webkit-gradient( linear, 0 100%, 100% 0, color-stop(0.25, rgba(55, 71, 211, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(55, 71, 211, 0.15)), color-stop(0.75, rgba(55, 71, 211, 0.15)), color-stop(0.75, transparent), to(transparent));
-    background: -webkit-linear-gradient( 45deg, rgba(55, 71, 211, 0.15) 25%, transparent 25%, transparent 50%, rgba(55, 71, 211, 0.15) 50%, rgba(55, 71, 211, 0.15) 75%, transparent 75%, transparent);
-    background: -moz-linear-gradient( 45deg, rgba(55, 71, 211, 0.15) 25%, transparent 25%, transparent 50%, rgba(55, 71, 211, 0.15) 50%, rgba(55, 71, 211, 0.15) 75%, transparent 75%, transparent);
-    background: -o-linear-gradient( 45deg, rgba(55, 71, 211, 0.15) 25%, transparent 25%, transparent 50%, rgba(55, 71, 211, 0.15) 50%, rgba(55, 71, 211, 0.15) 75%, transparent 75%, transparent);
-    background: linear-gradient( 45deg, rgba(55, 71, 211, 0.15) 25%, transparent 25%, transparent 50%, rgba(55, 71, 211, 0.15) 50%, rgba(55, 71, 211, 0.15) 75%, transparent 75%, transparent);
-    -webkit-animation: twb-bar 2s linear infinite;
-    -moz-animation: twb-bar 2s linear infinite;
-    -ms-animation: twb-bar 2s linear infinite;
-    -o-animation: twb-bar 2s linear infinite;
-    animation: twb-bar 2s linear infinite;
-    -webkit-background-size: 40px 40px;
-    -moz-background-size: 40px 40px;
-    -o-background-size: 40px 40px;
-    background-size: 40px 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: -webkit-gradient( linear, 0 100%, 100% 0, color-stop(0.25, rgba(55, 71, 211, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(55, 71, 211, 0.15)), color-stop(0.75, rgba(55, 71, 211, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background: -webkit-gradient( linear, 0 100%, 100% 0, color-stop(0.25, rgba(55, 71, 211, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(55, 71, 211, 0.15)), color-stop(0.75, rgba(55, 71, 211, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background: -webkit-linear-gradient( 45deg, rgba(55, 71, 211, 0.15) 25%, transparent 25%, transparent 50%, rgba(55, 71, 211, 0.15) 50%, rgba(55, 71, 211, 0.15) 75%, transparent 75%, transparent);
+  background: -moz-linear-gradient( 45deg, rgba(55, 71, 211, 0.15) 25%, transparent 25%, transparent 50%, rgba(55, 71, 211, 0.15) 50%, rgba(55, 71, 211, 0.15) 75%, transparent 75%, transparent);
+  background: -o-linear-gradient( 45deg, rgba(55, 71, 211, 0.15) 25%, transparent 25%, transparent 50%, rgba(55, 71, 211, 0.15) 50%, rgba(55, 71, 211, 0.15) 75%, transparent 75%, transparent);
+  background: linear-gradient( 45deg, rgba(55, 71, 211, 0.15) 25%, transparent 25%, transparent 50%, rgba(55, 71, 211, 0.15) 50%, rgba(55, 71, 211, 0.15) 75%, transparent 75%, transparent);
+  -webkit-animation: twb-bar 2s linear infinite;
+  -moz-animation: twb-bar 2s linear infinite;
+  -ms-animation: twb-bar 2s linear infinite;
+  -o-animation: twb-bar 2s linear infinite;
+  animation: twb-bar 2s linear infinite;
+  -webkit-background-size: 40px 40px;
+  -moz-background-size: 40px 40px;
+  -o-background-size: 40px 40px;
+  background-size: 40px 40px;
 }
 
 @-webkit-keyframes twb-bar {
-    from {
-        background-position: 40px 0;
-    }
-    to {
-        background-position: 0 0;
-    }
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
 }
 
 @-moz-keyframes twb-bar {
-    from {
-        background-position: 40px 0;
-    }
-    to {
-        background-position: 0 0;
-    }
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
 }
 
 @-ms-keyframes twb-bar {
-    from {
-        background-position: 40px 0;
-    }
-    to {
-        background-position: 0 0;
-    }
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
 }
 
 @-o-keyframes twb-bar {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: 40px 0;
-    }
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 40px 0;
+  }
 }
 
 @keyframes twb-bar {
-    from {
-        background-position: 40px 0;
-    }
-    to {
-        background-position: 0 0;
-    }
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
 }
