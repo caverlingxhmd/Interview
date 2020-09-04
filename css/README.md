@@ -1,0 +1,1 @@
+linearGradient  css实现斑马纹动态动画
