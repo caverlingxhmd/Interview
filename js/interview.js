@@ -284,4 +284,23 @@ const isDate = getType('Date')
 
   const b = new B()
   console.log(b, b instanceof B, b instanceof A)
-}、
+}
+
+// 函数柯理化
+{
+  function add(...args) {
+    function sum(...args1) {
+      args = [...args, ...args1]
+      return sum
+    }
+    // 隐式调用
+    sum.toString = function() {
+      return args.reduce((a, b) => a + b)
+    }
+    sum.valueOf = function() {
+      return args.reduce((a, b) => a + b)
+    }
+    return sum
+  }
+  add(1, 2, 3)(1, 2, 3) // 12
+}
